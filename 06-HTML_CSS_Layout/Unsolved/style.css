@@ -1,0 +1,64 @@
+/*GENEREL BODY ATTRIBUTES===============================*/
+body{
+    line-height: 1.5;
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+/*MAIN HEADER ATTRIBUTES======================================*/
+header{
+    background-color: #333333;
+}
+
+/*NUMBERED HEADER ATTRIBUTES======================================*/
+h1{
+    color #eee;
+    font-size: 28px;
+}
+
+h2{
+    /* outline: #ee22dd dashed 5px; */
+    font-size: 24px;
+}
+/*================================================================*/
+
+/*CLASS ATRTIBUTES================================================*/
+.container{
+    position: relative;
+    /* outline: #2d0bec dotted 5px; */
+    float: left;
+    width: 500;
+    margin: 0 auto;
+}
+
+/*ID ATTRIBUTES============================================================*/
+/*BIO-IMAGE, MAIN-BIO and CONTACT-INFO SHARED ATTRIBUTES*/
+#bio-image, #main-bio, #contact-info{
+    float: left;
+}
+
+/*BIO-IMAGE ATTRIBUTES*/
+#bio-image{
+    margin-right: 2%;
+    /* outline: green solid 5px; */
+    width: 200;
+}
+
+/*MIAN-BIO ATTRIBUTES*/
+#main-bio{
+    /* outline: #ffff00 solid 5px; */
+    width: 70%;
+}
+
+/*CONTACT-INFO ATTRIBUTES*/
+#contact-info{
+    width: 30%;
+}
+/*================================================================================*/
+
+/*HTML LINK ATTRIBUTES=========================================*/
+a:link{
+    color: #d21034;
+}
+
